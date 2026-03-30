@@ -1,11 +1,11 @@
 ### ex13_datastruct.py 리스트외 자료구조
 
-## List(리스트)
+## List(리스트) - 대괄호
 arr = [1, 2, 3, 4]
 arr.append(5)
 print(f'리스트값 = {arr}')
 
-## Tuple(튜플)
+## Tuple(튜플) - 소괄호
 tup = (1, 2, 3, 4)
 # tup[2] = 9  # 오류 발생
 print(f'튜플값 = {tup}')
@@ -18,19 +18,19 @@ print(f'튜플값 = {tup}')
 spiderman = {
     'hero_name': '스파이더맨',
     'age': 21,
-    'real_name' : 'Peter Parker'
+    'real_name': 'Peter Parker'
 }
 
 print(spiderman['real_name'])
 
 # 사전형식, 빠른 검색이 가능한 hash기반
-# 키로 접근 (key:valus 항상 쌍)
-# 값은 여러타입 
-# json과 구고자 동일
+# 키로 접근 (key:value 항상 쌍)
+# 값은 여러타입 사용 가능
+# json과 구조가 동일
 
 ## Set(집합) - 중괄호 사용
-st = [1, 3, 5, 7, 9, 3, 2, 1]
+st = {1, 3, 5, 7, 9, 3, 2, 1}
 print(st)
 
 # 중복제거, 순서없음
-# 집합연산(교집합)
+# 집합연산(교집합, 차집합, ..) 사용
