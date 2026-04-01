@@ -205,4 +205,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# 제외시킬 가상환경
 iot-venv/

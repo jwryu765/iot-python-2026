@@ -389,3 +389,44 @@ IoT 개발자 파이썬 리포지토리
         - 문자를 숫자로 변환
         - 예. male, female 은 분석불가 -> 0, 1 (수, 분포,...) 수치적인 통계 가능
         - One-Hot Encoding, male[1, 0, 0], female[0, 1, 0], child[0, 0, 1]
+
+## 5일차
+
+### 영상처리
+
+- 개요
+    - image processing
+    - 이미지를 컴퓨터로 분석하고 변환하는 분야
+    - 동영상 : 연속된 이미지 + 음성
+    - 음성은 제외하고 연속 영상만 사용
+    - 초당 이미지를 여러개 변경해서 만들어지는 것 : 보통 1초에 30개 이미지가 변경
+    - Frame : 동영상에서 하나씩 변경되는 이미지
+    - FPS : Frame Per Second. 1초 뿌려지는 이미지수
+    - 영상처리는 이미지, 동영상 모두 분석하고 변환처리하는 것
+    - 컴퓨터 비전(Computer Vision) - 영상처리를 컴퓨터로 처리
+
+- OpenCV
+    - 오픈 소스 컴퓨터 비전 라이브러리
+    - 독립적 OS 플랫폼에서 사용가능
+    - C로 개발 C++로 변경
+    - 모든 언어에서 사용할 수 있도록 래핑 라이브러리가 존재
+
+- OpenCV Python - [노트북](./day05/ex26.opencv_start.ipynb)
+    - OpenCV를 파이썬에 사용하도록 만든 래핑 라이브러리
+    - 코드, 간결, AI/딥러닝과 연결 쉬움, 데이터 분석 통합 가능
+    - C++ OpenCV 속도가 느림 - > PyTorch로 속도 개선
+
+- VLC
+    - 영상처리 쪽 코덱이 필요
+    - https://www.videolan.org/vlc/index.ko.html
+    - https://livecodec.co.kr/web/
+
+- OpenCV 간단 이미지에디터 - - [노트북](./day05/ex27_cv_editor.py)
+    - 대비/밝기, 블러, 엣지, 회전, 이진화 기능, 이미지 로드/저장
+    - 실행화면
+
+    ![alt text](image-13.png)
+
+## 6일차
+
+### 실시간 웹캠 처리
