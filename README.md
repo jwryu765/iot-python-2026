@@ -245,7 +245,7 @@ IoT 개발자 파이썬 리포지토리
 
     - 가상환경은 github에 올리지 말 것. .gitignore에 가상환경 폴더명 추가할 것
 
-15. 객체지향 - [소스](./day03/ex15_oop.py) ~ [소스](./day03/ex18_encapsule.py)
+15. 객체지향 - [소스1](./day03/ex15_oop.py) ~ [소스4](./day03/ex18_encapsule.py)
     - C++의 객체지향, 클래스와 동일    
     - C++과 달리 new 안 씀, 변수등 선언 제약사항이 많이 없음
     - 클래스 내의 모든 함수의 첫번째 파라미터는 `self`로 시작, C++의 this와 동일
@@ -300,50 +300,50 @@ IoT 개발자 파이썬 리포지토리
 
 - 주피터 노트북 단축키
     - a : [선택모드] 현재 셸 위에 코드셸 추가
-    - b : [선택모드]현재 셸 아래에 코드셸 추가
-    - enter : [선택모드] 핸제 셸 편집모드로 진입(커서 깜빡임 확인)
+    - b : [선택모드] 현재 셸 아래에 코드셸 추가
+    - enter : [선택모드] 현제 셸 편집모드로 진입(커서 깜빡임 확인)
     - Ctrl + enter : [편집모드] 마크다운셸은 빠져나오기, 코드셸을 실행
     - l : [선택모드] 라인번호 표시 토글
     - dd : [선택모드] 셸 삭제
-    - alt + 위라래 방량키 : [선택모드] 셸 위치 변경
+    - alt + 위아래 방향기 : [선택모드] 셸 위치 변경
     - c : [선택모드] 셸 복사
     - v : [선택모드] 셸 붙여넣기
 
 - 사용처
-    - 웹상에서 동작하므로 많은 서비스를 지원, 로컬 컴퓨터보다 
-    - [Github codespace](https://github.com/features/codespaces) - 기존 리포지토리와 연결 지원(무료일 경우 한달 140시간)
-    - [Google Colab](https://colab.research.google.com/) - 구글에서 지원하는 노트북서비스, 구글드라이브와 연결. 90분 연결무료, 기능 제약적 
+    - 웹상에서 동작하므로 많은 서비스를 지원, 로컬 컴퓨터보다 속도 느림    
+    - [Github Codespace](https://github.com/features/codespaces) - 기존 리포지토리와 연결 지원(무료일 경우 한달 140시간)
+    - [Google Colab](https://colab.google.com/) - 구글에서 지원하는 노트북서비스. 구글드라이브와 연결. 90분 연결무료, 기능 제약적
 
-    ### 데이터 분석 기초
+### 데이터 분석 기초
 
 - 분석용 기초 이론 - [노트북](./day03/ex21_dataprocess.ipynb)
     - ~~리스트, 튜플, 딕셔너리~~
     - 리스트 컴프리헨션
     - 파일 입출력
-    - Numpy
+    - NumPy
 
-    ## 4일차
+## 4일차
 
-    ### 데이터 분석 기초
+### 데이터 분석 기초 
 
-    - 분석용 기초 이론 계속
-        - Numpy
-        - Pandas -[노트북](./day04/ex22_dataprocess.ipynb)
-        - Matplotlib
-        - Seaborn -[노트북](./day04/ex23_dataprocess.ipynb)
-        - Folium -[노트북](./day04/ex24_map_vis.ipynb)
-        - WordCloud -[노트북](./day04/ex25_wordcloud.ipynb)
-        - [기초 통계](#기초-통계)
-        - [데이터전처리](#데이터-전처리)
+- 분석용 기초 이론 계속 
+    - NumPy
+    - Pandas - [노트북](./day04/ex22_dataprocess.ipynb)
+    - Matplotlib 
+    - Seaborn - [노트북](./day04/ex23_dataprocess.ipynb)
+    - Folium - [노트북](./day04/ex24_map_vis.ipynb)
+    - WordCloud - [노트북](./day04/ex25_wordcloud.ipynb)
+    - [기초 통계](#기초-통계)
+    - [데이터전처리](#데이터-전처리)
 
-    - 데이터분석 이유
-        - 인사이트(Insight) : 특정한 맥락 속에서 특정 원인이나 효과를 이해하는 것
-        - 방대한 데이터 속에서 패턴이나 인사이트(통찰)를 도출, `합리적인 의사결정`, `고객 행동 예측`, `운영 효율화`, `신규 비즈니스 기회 창출` 등을 하는 핵심 도구
-            - 데이터 기반의 의사결정 가능
-            - 고객 이해도 증가
-            - 운영 효율성 및 비용 절감
-            - 트렌드 파악 및 경쟁력 강화
-            - 미래 예측
+- 데이터 분석
+    - 인사이트(Insight) : 특정한 맥락 속에서 특정 원인이나 효과를 이해하는 것
+    - 방대한 데이터 속에서 패턴이나 인사이트(통찰)를 도출, `합리적인 의사결정`, `고객 행동 예측`, `운영 효율화`, `신규 비즈니스 기회 창출` 등을 하는 핵심 도구
+        - 데이터 기반의 의사결정 가능
+        - 고객 이해도 증가
+        - 운영 효율성 및 비용 절감
+        - 트렌트 파악 및 경쟁력 강화
+        - 미래 예측
 
 #### 기초 통계
 - 기초 통계
@@ -354,8 +354,8 @@ IoT 개발자 파이썬 리포지토리
     - `표준편차(Standard Deviation)` - 분산의 제곱근. 데이터의 흩어짐 정도를 산출
     - 최소값(Min)/최대값(Max) - 범위 파악
     - 사분위수(Quartile) - 데이터를 4등분. Q1(25%), Q2(50% median), Q3(75%)
-    - `상관계수(Correlation)` - 두 데이터의 관계. 1(강한 양의 관계), 0(관계없음), -1(반대관계)
-    - 정규분포(Normal Distribution) - 현재의 값이 정상범위인지 판단할때, 퍼진정도를 그래프로, 종모양
+    - `상관계수(Correlation)` - 두 데이터의 관계. 1(강한 양의 관계), 0(관계없음), -1(반대관계). 산점도
+    - 정규분포(Normal Distribution) - 현재의 값이 정상범위인지 판단할때. 퍼진정도를 그래프로, 종모양
     - `이상치(Outlier)` - 튀는 값
 
 #### 데이터 전처리
@@ -366,7 +366,7 @@ IoT 개발자 파이썬 리포지토리
         - 수정하고 틀리면 또 수정...
     - 현실 데이터의 문제
         - 데이터 구조가 제각각(json, csv, db, ...)
-        - 값이 비어있음(결측치)
+        - 값이 비어 있음(결측치)
         - 이상한 값이 있음(이상치)
         - 단위도 제각각
         - 숫자와 문자가 뒤섞임
@@ -377,17 +377,17 @@ IoT 개발자 파이썬 리포지토리
         - 스케일링
         - 인코딩
     - 결측치
-        - 전체 데이터(해당컬럼)에서 10% 정도의 결측치가 있으면 다른 값(평균, 최소, 최대, 중앙값...)으로 채워넣음. 실무에서는 평균, 중앙값 많이 사용
+        - 전체 데이터(해당컬럼)에서 10% 정도의 결측치가 있으면 다른값(평균, 최소, 최대, 중앙값...)으로 채워넣음. 실무에서는 평균, 중앙값 많이 사용
         - 40% 이상의 결측치를 가지면, 이 컬럼은 삭제. 분석에서 제외
     - 이상치
         - 단순 제거
-        - 사분위수를 사용, 를 하거나 통계 기반으로 제거
+        - 사분위수를 사용, 통계 기반으로 제거
     - 스케일링
-        - 값의 범위를 맞추는 것.
+        - 값의 범위를 맞추는 것
         - 표준화, 정규화
     - 인코딩
         - 문자를 숫자로 변환
-        - 예. male, female 은 분석불가 -> 0, 1 (수, 분포,...) 수치적인 통계 가능
+        - 예. male, female 은 분석불가 -> 0, 1 (수, 분포,.. ) 수치적인 통계 가능
         - One-Hot Encoding, male[1, 0, 0], female[0, 1, 0], child[0, 0, 1]
 
 ## 5일차
@@ -395,8 +395,8 @@ IoT 개발자 파이썬 리포지토리
 ### 영상처리
 
 - 개요
-    - image processing
-    - 이미지를 컴퓨터로 분석하고 변환하는 분야
+    - Image processing
+    - 이미지를 컴퓨터 분석하고 변환하는 분야
     - 동영상 : 연속된 이미지 + 음성
     - 음성은 제외하고 연속 영상만 사용
     - 초당 이미지를 여러개 변경해서 만들어지는 것 : 보통 1초에 30개 이미지가 변경
@@ -411,10 +411,10 @@ IoT 개발자 파이썬 리포지토리
     - C로 개발 C++로 변경
     - 모든 언어에서 사용할 수 있도록 래핑 라이브러리가 존재
 
-- OpenCV Python - [노트북](./day05/ex26.opencv_start.ipynb)
+- OpenCV Python - [노트북](./day05/ex26_opencv_start.ipynb)
     - OpenCV를 파이썬에 사용하도록 만든 래핑 라이브러리
-    - 코드, 간결, AI/딥러닝과 연결 쉬움, 데이터 분석 통합 가능
-    - C++ OpenCV 속도가 느림 - > PyTorch로 속도 개선
+    - 코드 간결, AI/딥러닝과 연결 쉬움, 데이터 분석 통합 가능
+    - C++ OpenCV보다 속도가 느림 -> PyTorch로 속도 개선
 
     ```bash
     > pip install opencv-python
@@ -422,10 +422,10 @@ IoT 개발자 파이썬 리포지토리
     
 - VLC
     - 영상처리 쪽 코덱이 필요
-    - https://www.videolan.org/vlc/index.ko.html
-    - https://livecodec.co.kr/web/
+    - https://www.videolan.org/vlc/index.ko.html 
+    - https://livecodec.co.kr/
 
-- OpenCV 간단 이미지에디터 - - [노트북](./day05/ex27_cv_editor.py)
+- OpenCV 간단 이미지에디터 - [소스](./day05/ex27_cv_editor.py)
     - 대비/밝기, 블러, 엣지, 회전, 이진화 기능, 이미지 로드/저장
     - 실행화면
 
@@ -443,11 +443,11 @@ IoT 개발자 파이썬 리포지토리
 
 ## 7일차
 
-### 가상환경
-- 생성한 가상환경 내에 Scripts 폴더 안, Activate.ps1 실행해야 가상환경 준비
+### 가상환경 실행
+- 생성한 가상환경 내에 Scripts 폴더 안, Activtate.ps1 실행해야 가상환경 준비
 
 ```powershell
-# 가상환경 진입(진입)
+# 가상환경 활성화(진입)
 > .\iot-venv\Scripts\Activate.ps1
 # 가상환경 비활성화 - 파워쉘 종료
 ```
@@ -455,7 +455,7 @@ IoT 개발자 파이썬 리포지토리
 ### 머신러닝, 딥러닝
 - Artificial Intelligence - 인공지능. 가장 오래된 개념
 - Machine Learning - 데이터로 규칙을 컴퓨터가 스스로 찾아내는 알고리즘
-- Deep Learning - 인간과 유사한 **인공 신경망**으로 패턴으로 학습, 음성인식, 번역, 자율주행, 이미지생성 등 다양한 분야에서 사용되는 머시러닝의 한 갈래
+- Deep Learning - 인간과 유사한 **인공 신경망**으로 패턴을 학습, 음성인식, 번역, 자율주행, 이미지생성 등 다양한 분야에서 사용되는 머신러닝의 한 갈래
 
 ![alt text](image-14.png)
 
@@ -484,19 +484,18 @@ IoT 개발자 파이썬 리포지토리
 - 코드가 직관적이고, 디버깅이 쉽고, 연구/개발쪽 모두 선호하는 프레임워크
 - https://pytorch.org/
 
-![alt text](image-15-1.png)
+![alt text](image-15.png)
 
-#### 설치
-- 설치 방법
+- 설치방법
     - CPU버전 : 컴퓨터 CPU를 사용해서 연산하는 방법
         - 간단 설치
-        - pip3 install torch torchvision
+        - pip install torch torchvision
 
     - GPU버전 : 컴퓨터 그래픽카드의 CPU를 사용하는 방법
-        - Nvidia 그래픽카드의 경우 CUDA 프레임워크 설치되어야 함
+        - Nvidia 그래픽카드의 경우 CUDA 프레임워크 설치되어야 함(필수x)
         - https://developer.nvidia.com/cuda-12-6-0-download-archive
         - 내부에 CUDA 런타임 라이브러리를 가지고 있음
-        - pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+        - pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
         - cu126-cp312-cp312-win_amd64.whl 대략 2.6GB 정도
 
 #### 파이토치 기본문법
@@ -508,8 +507,8 @@ IoT 개발자 파이썬 리포지토리
 - 한 개 이상의 독립변수와 종속변수 사이의 선형관계를 모델링하는 통계기법
 
 - 예 : 공부시간에 따른 시험 점수를 예측
-    - 공부시간(독립변수/입력값): x
-    - 시험점수(종속변수/출력값): y
+    - 공부 시간(독립변수/입력값): x
+    - 시험 점수(종속변수/출력값): y
     - y = wx + b 직선의 방정식을 찾는 것
 
     |공부시간(x) | 시험점수(y) |
@@ -517,21 +516,21 @@ IoT 개발자 파이썬 리포지토리
     |1 | 52 |
     |2 | 60 |
     |3 | 68 |
-    |4 | 78 |
+    |4 | 76 |    
     |5 | 84 |
 
     - 공부시간과 시험점수 사이의 관계를 찾을 것
     - 기울기 w : 공부시간이 1시간 늘면 점수가 몇점 오르나?
-        - W = 10 -> 1시간 공부하면 10점 오른다
+        - w = 10 -> 1시간 공부하면 10점 오른다
     - 절편 b : 기본점수, 공부를 하나도 안해도 나오는 점수
-        - b = 45 -> 찍어도 나오는 점수 
+        - b = 45 -> 찍어도 나오는 점수
 
-    - 가장 잘 맞는 W와 b를 찾아가는 과정
+    - 가장 잘 맞는 w와 b를 찾아가는 과정
 
--선형회귀 순서
+- 선형회귀 순서
     1. 임의 w와 b를 지정
     2. 독립변수(입력값)에 대한 종속변수(실제값)과 예측값 도출
-    3. 둘 사이의 오차를 계산(Loss) -> 손실함수
+    3. 둘 사이의 오차를 계산 -> 손실함수
     4. 미분계산 -> 역전파
     5. w와 b를 약간 수정 -> 경사하강법
     6. 반복 -> 학습률
@@ -539,7 +538,7 @@ IoT 개발자 파이썬 리포지토리
 #### 정리
 
 - 일반 프로그래밍 : 입력값, 가중치, 절편을 입력해서, 출력값을 리턴하는 프로그램 개발
-- 인공지능 프로그래밍 : 입력값, 출력값을 입력해서, 가중치, 절편 등을 구하는 모델을 개발
+- 인공지능 프고래밍 : 입력값, 출력값을 입력해서, 가중치, 절편 등을 구하는 모델을 개발
 
 
 #### 퍼셉트론
@@ -552,7 +551,7 @@ IoT 개발자 파이썬 리포지토리
 #### 다중퍼셉트론
 
 - [소스](./day08/ex31_pytorch_nn.ipynb)
-- 단일 퍼셉트론의 한계를 극복하기 위해 등장. 퍼셉트론은 여러개 쌓아올린 구조
+- 단일 퍼셉트론의 한계를 극복하기 위해 등장. 퍼셉트론을 여러개 쌓아올린 구조
 - 입력층, 은닉층, 출력층으로 구분
 
 ![alt text](image-17.png)
@@ -576,9 +575,9 @@ IoT 개발자 파이썬 리포지토리
 #### CUDA 사용 팁
 
 - 현재 NVIDIA RTX 5060 그래픽카드
-    - GPU 아키텍처 - Blackwell계열
+    - GPU 아키텍처 - Blackwell계열 
     - CUDA Compute Capa - sm_120 사용
-- cuda 12.8 이상 사용
+    - cuda 12.8 이상 사용
 - 이전 버전은 cuda 12.6 사용가능
 
 - 12.6 버전 Pytorch 삭제 후, 13.0 이상 설치
@@ -587,7 +586,7 @@ IoT 개발자 파이썬 리포지토리
 - 설치 방법
 
     ```powershell
-    > ./iot-venv/Scripts/Activate.ps1 # 가상환경 진입
+    > .\iot-venv\Scripts\Activate.ps1  # 가상환경 진입
 
     > pip uninstall torch torchvision -y
 
@@ -596,10 +595,54 @@ IoT 개발자 파이썬 리포지토리
 
 #### CNN
 
-- [소스](./day09/ex_33_pytorch_cnn.ipynb)
-- Convolutional Neural Network(합성곱 신경망): 이미지나 영상 분석에 특화된 인공지능 신경망 구조
+- [소스](./day09/ex33_pytorch_cnn.ipynb)
+- Convolutional Neural Network(합성곱 신경망) : 이미지나 영상 분석에 특화된 인공지능 신경망 구조
 - 로지스틱 회귀 : 이미지를 1차원으로 변경 처리
 
 ![alt text](image-18.png)
 
-- 최적화 알고리즘에 Softmax() 클래스는 deprecated(추후 버전에 삭제예정)임
+- 활성화함수 Softmax() 클래스는 deprecated(추후 버전에 삭제예정)임
+
+
+## 10일차
+
+### 사전학습 모델 활용
+
+- [소스](./day10/ex35_pytorch_pretrained.ipynb)
+- ImageNet : 세계에서 가장 유명한 대규모 이미지 데이터셋 
+    - 2009년도 부터 공개한 이미지 은행
+    - 2만개 클래스, 총 1400만장 이상 고해상도 이미지
+- ResNet18 : MS연구소에서 개발한 ResNet의 경량화 버전
+    - 18 : 가중치 학습 18개 층으로 구성
+    - PyTorch나 Tensorflow에서 
+
+- 일반 CNN : 데이터준비 > 모델 설계 > 처음부터 학습
+- 사전학습 모델 : 학습된 모델 로드 > 마지막 분류층만 수정 > 나의 데이터로 추가학습
+
+![alt text](image-19.png)
+### 모델불러오기
+
+- [소스](./day10/ex36_pytorch_trainmodel.ipynb)
+- 학습 후 저장된 모델을 로드해서 훈련시간 절약
+
+![alt text](image-20.png)
+
+## 11일차
+
+### YOLO로 객체탐지
+
+- YOLO : You Only Look Once 약자
+    - PyTorch 라이브러리 위에서 동작하는 물체인식 라이브러리
+    - Ultralytics YOLO : https://www.ultralytics.com/
+    - 공식 github : https://github.com/ultralytics/ultralytics 
+
+- 이미지, 영상 인식
+
+- YOLO 설치
+
+    ```powershell
+    > pip install ultralytics huggingface_hub
+    ```
+
+
+https://github.com/user-attachments/assets/79273d45-8b9c-49cb-86f4-67cf50e824bc
